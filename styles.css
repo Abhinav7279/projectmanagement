@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+#user-list {
+    float: left;
+  }
+  
+  #user-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #chat-container, #task-container {
+    margin-left: 200px;
+  }
+  
+  #messages {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  #message-input, #task-input {
+    width: 70%;
+  }
+  
+  #send-button, #assign-button {
+    width: 30%;
+  }
